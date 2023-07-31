@@ -1,0 +1,50 @@
+.bookings{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.navbar .title{
+    font-size: 16px;
+    margin: 0;
+}
+
+.bookings .message{
+    color: rgb(77, 74, 74);
+}
+
+.booking{
+    box-shadow: 4px 4px 7px rgba(0,0,0,0.15);
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.booking .content{
+    border-collapse: separate;
+    padding: 10px 0;
+}
+
+.booking .content table{
+    border-spacing: 10px;
+}
+
+.booking .content table tr td:nth-child(1){
+    text-align: right;
+}
+
+.booking .content table tr td:nth-child(2){
+    text-align: left;
+}

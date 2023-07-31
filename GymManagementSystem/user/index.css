@@ -1,0 +1,70 @@
+.landing{
+    padding: 20px 40px;
+    height: calc(85vh - 81px);
+}
+
+.landing .title-box{
+    position: relative;
+    text-align: center;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.landing .title-box .title{
+    font-size: 64px;
+}
+
+.landing .title-box > *{
+    margin: 15px 0;
+}
+
+.landing .title-box .sub-title{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.line{
+    padding: 1px;
+}
+
+.arrow > svg{
+    position: relative;
+    top: 25vh;
+    animation: scroll 1000ms ease-in-out infinite;
+}
+
+/* Sections(other than main) */
+.section{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section:nth-child(odd){
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+.section .title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.section a{
+    margin: 10px 0;
+}
+
+/* Animations */
+
+@keyframes scroll{
+    0%, 100%{
+        top: 25vh;
+    }
+    50%{
+        top: calc(25vh - 10px);
+    }
+}

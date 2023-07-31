@@ -1,0 +1,106 @@
+*{
+    font-family: 'Segoe UI', sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a.btn-primary, .btn-primary{
+    display: inline-block;
+    color: white;
+    background-color: rgb(55, 136, 241);
+    padding: 10px 20px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    border: 0;
+}
+
+button.btn-primary{
+    color: white;
+    background-color: rgb(55, 136, 241);
+    padding: 10px 30px;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: rgb(44, 86, 141);
+}
+
+.btn-secondary{
+    color: white !important;
+    background-color: rgb(32, 31, 31);
+    padding: 10px 20px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+button.btn-secondary{
+    color: white;
+    background-color: rgb(32, 31, 31);
+    padding: 10px 30px;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(63, 65, 66)
+}
+
+a.btn-success, button.btn-success, .btn-success{
+    background-color: rgb(62, 238, 91);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-success:hover{
+    background-color: rgb(48, 184, 70);
+}
+
+.btn-caution{
+    background-color: rgb(243, 230, 53);
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-caution:hover{
+    background-color: rgb(238, 215, 6);
+}
+
+button.btn-danger, .btn-danger{
+    background-color: rgb(238, 62, 62);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-danger:hover{
+    background-color: rgb(184, 48, 48);
+}
+
+.black{
+    color: black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+input[type="text"], input[type="number"], select{
+    padding: 5px;
+    margin-top: 5px;
+}
